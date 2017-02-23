@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Open Sans";
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+h1 {
+  font-size: 5vw;
+  font-weight: 200;
+}
+
+.left-container {
+  width: 25%;
+  float: left;
+}
+
+.right-container {
+  width: 75%;
+  float: left;
+}
+
+.quote {
+  font-family: "Merriweather";
+}
