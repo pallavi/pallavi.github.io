@@ -7,6 +7,17 @@ body {
   font-family: "Open Sans";
 }
 
+img {
+  max-width: 80%;
+  filter: grayscale(90%);
+}
+
+a {
+  font-family: "Merriweather";
+  text-decoration: none;
+  color: #bada55;
+}
+
 .container {
   height: 100%;
   display: flex;
@@ -16,21 +27,49 @@ body {
   flex-wrap: nowrap;
 }
 
+button {
+  border-radius: 10px;
+  border: none;
+  background-color: #bada55;
+  color: white;
+  font-size: 20px;
+  width: 15%;
+}
+
 h1 {
+  font-family: "Merriweather";
   font-size: 5vw;
   font-weight: 200;
+  margin: 0;
+}
+
+div.spacer {
+  height: 300px;
 }
 
 .left-container {
-  width: 25%;
+  width: 30%;
   float: left;
+  text-align: center;
 }
 
 .right-container {
-  width: 75%;
-  float: left;
+  width: 70%;
+  float: right;
+  font-size: 12;
 }
 
 .quote {
+  color: gray;
   font-family: "Merriweather";
+  width: 50%;
+  text-align: center;
+}
+
+.quote.right {
+  float: right;
+}
+
+.quote.left {
+  float: left;
 }
