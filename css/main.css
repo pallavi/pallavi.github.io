@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #ff4444;
+}
+
 html {
   height: 100%;
 }
@@ -48,24 +52,6 @@ img {
   padding: 20px;
 }
 
-.bio-container a {
-  border-bottom: 1px solid #ff4444;
-  color: black;
-  padding-bottom: 1px;
-}
-
-.icon-container {
-  padding-top: 10px;
-}
-
-.email {
-  color: gray;
-  font-size: 17px;
-  font-weight: bold;
-  letter-spacing: 2.4px;
-  padding-top: 15px;
-}
-
 h1 {
   font-family: 'Sacramento';
   font-size: 50px;
@@ -74,7 +60,37 @@ h1 {
   padding-left: 2px;
 }
 
+.bio-container a {
+  border-bottom: 1px solid var(--accent-color);
+  color: black;
+  padding-bottom: 1px;
+}
+
+.bio-container a:hover {
+  border-bottom: 2px solid gray;
+  font-style: italic;
+}
+
 i {
-  color: #ff4444;
-  padding-right: 35px;
+  color: var(--accent-color);
+}
+
+i:hover {
+  color: gray;
+}
+
+.icon-container {
+  padding-top: 10px;
+}
+
+.icon-container a {
+  margin-right: 35px;
+}
+
+.email {
+  color: gray;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  padding-top: 15px;
 }
