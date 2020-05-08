@@ -21,7 +21,7 @@ body {
   height: 100%;
   letter-spacing: 1px;
   margin: 0;
-  overflow: scroll;
+  overflow-y: scroll;
   justify-content: center;
 }
 
