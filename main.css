@@ -1,9 +1,9 @@
 :root {
   --accent-color: #ff5858;
-  --background-color: #26202b;
+  --background-color: #ffffff;
   --circle-color: #7b79da;
-  --heading-color: #cccccc;
-  --text-color: #fafafa;
+  --heading-color: #666666;
+  --text-color: #2a2a2a;
 }
 
 html {
@@ -87,7 +87,7 @@ a {
 
 a:hover {
   border-bottom: 1px solid var(--accent-color);
-  filter: brightness(150%);
+  filter: brightness(60%);
 }
 
 h1 {
