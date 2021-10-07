@@ -1,8 +1,8 @@
 :root {
-  --accent-color: #ff5858;
+  --accent-color: #837267;
   --background-color: #ffffff;
-  --circle-color: #7b79da;
-  --heading-color: #666666;
+  --circle-color: #5eccc7;
+  --divider-color: #dadada;
   --text-color: #2a2a2a;
 }
 
@@ -16,13 +16,15 @@ body {
   color: var(--text-color);
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Zilla Slab';
-  font-size: 18px;
+  font-family: 'Bitter';
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: .4px;
   height: 100%;
-  letter-spacing: 1px;
   margin: 0;
   overflow-y: scroll;
   justify-content: center;
+  text-rendering: optimizeLegibility;
 }
 
 figure, svg {
@@ -72,16 +74,13 @@ circle:nth-child(5) {
 
 main {
   padding: 40px;
-  width: 400px;
-  max-width: 90vw;
-}
-
-p {
-  line-spacing: 1.5em;
+  width: 420px;
+  max-width: 95vw;
 }
 
 a {
   color: var(--accent-color);
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -91,26 +90,25 @@ a:hover {
 }
 
 h1 {
-  color: var(--heading-color);
-  font-family: 'Sacramento';
-  font-size: 50px;
-  font-weight: 200;
-  margin: 0;
+  letter-spacing: 1px;
+  margin-top: 0;
   padding-left: 2px;
 }
 
 .actions-container {
   align-items: center;
-  border-top: 1px solid var(--heading-color);
+  border-top: 1px solid var(--divider-color);
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  margin-top: 2em;
 }
 
 
 .icons a {
   border-bottom: 0;
   margin-right: 10px;
+  font-size: 20px;
   padding: 5px;
   text-align: center;
 }
