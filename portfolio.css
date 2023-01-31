@@ -1,0 +1,85 @@
+:root {
+  --accent-color: #837267;
+  --background-color: #ffffff;
+  --circle-color: #5eccc7;
+  --divider-color: #dadada;
+  --text-color: #2a2a2a;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Bitter';
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: .4px;
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  justify-content: center;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  padding: 40px;
+  width: 520px;
+  max-width: 95vw;
+}
+
+a {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--accent-color);
+  filter: brightness(60%);
+}
+
+h1 {
+  letter-spacing: 1px;
+  margin-top: 0;
+  padding-left: 2px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project {
+  margin: 2em 0;
+}
+
+.project > .links {
+}
+
+.actions-container {
+  align-items: center;
+  border-top: 1px solid var(--divider-color);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin-top: 2em;
+}
+
+
+.icons a {
+  border-bottom: 0;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+.resume a {
+  font-size: .8em;
+}
