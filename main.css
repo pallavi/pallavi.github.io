@@ -1,7 +1,7 @@
 :root {
-  --accent-color: #569571;
+  --accent-color: #428db2;
   --background-color: #ffffff;
-  --circle-color: #5eccc7;
+  --circle-color: #4d5e9a;
   --divider-color: #dadada;
   --text-color: #2a2a2a;
 }
@@ -80,7 +80,6 @@ main {
 
 a {
   color: var(--accent-color);
-  font-weight: 600;
   text-decoration: none;
 }
 
